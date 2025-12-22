@@ -29,7 +29,7 @@ const form = document.getElementById("subscribeForm");
 const message = document.getElementById("message");
 
 // 🔴 CHANGE THIS AFTER DEPLOYMENT
-const BACKEND_URL = "http://127.0.0.1:5000";
+const BACKEND_URL = "https://glowvai-backend-7u2y.onrender.com";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
