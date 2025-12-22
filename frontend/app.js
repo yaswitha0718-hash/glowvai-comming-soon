@@ -36,7 +36,7 @@ form.addEventListener("submit", async (e) => {
 
   const email = document.getElementById("email").value;
   message.textContent = "⏳ Sending...";
-  message.style.color = "#f59e0b";
+  message.style.color = "#d4af37";
 
   try {
     const res = await fetch(`${BACKEND_URL}/subscribe`, {
