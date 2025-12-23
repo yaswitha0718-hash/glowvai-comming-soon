@@ -39,7 +39,7 @@ document.getElementById("subscribeForm").addEventListener("submit", function (e)
     return;
   }
 
-  const companyEmail = "glowvai.official@gmail.com";
+  const companyEmail = "glowvai.team@gmail.com";
   const subject = "Early Access Request – GLOWVAI";
 
   const body = `Hello GLOWVAI Team,
