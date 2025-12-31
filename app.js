@@ -1,5 +1,5 @@
 // 🔹 Countdown target (IST)
-const launchDate = new Date("2026-01-01T00:00:00+05:30").getTime();
+const launchDate = new Date("2026-01-01T18:00:00+05:30").getTime();
 
 function updateCountdown() {
   const now = Date.now();
